@@ -1,0 +1,64 @@
+Day 1 – TypeScript for Playwright
+
+Date: ___________
+
+Topics Covered:
+
+1. Difference between JavaScript and TypeScript
+- JavaScript is dynamically typed.
+- TypeScript is statically typed.
+- TypeScript helps catch errors during development before execution.
+- TypeScript is a superset of JavaScript.
+
+2. How TypeScript Works
+- TypeScript code cannot be executed directly by the browser or Node.js.
+- TypeScript code is first compiled into JavaScript.
+- The generated JavaScript code is then executed by Node.js or the browser.
+
+Flow:
+TypeScript (.ts) → TypeScript Compiler (tsc) → JavaScript (.js) → Execution
+
+3. Type Safety
+- Type safety ensures variables hold values of a specific type.
+- Helps reduce runtime errors and improves code reliability.
+
+Example:
+let age: number = 25;
+age = 30;        // Valid
+age = "twenty"; // Invalid in TypeScript
+
+4. Installation of TypeScript Compiler
+Command used to install TypeScript globally:
+npm install -g typescript
+
+Command to check TypeScript version:
+tsc --version
+
+5. Converting TypeScript Code into JavaScript
+Command:
+tsc firstdemo.ts
+
+- This command generates a JavaScript file.
+- The JavaScript file is executed using Node.js.
+
+Execution command:
+node firstdemo.js
+
+6. TypeScript Executor (ts-node)
+- ts-node allows execution of TypeScript files directly.
+- No need to manually convert TypeScript to JavaScript.
+
+Installation:
+npm install -D ts-node
+
+Execution:
+npx ts-node firstdemo.ts
+
+7. Summary
+- Learned the difference between JavaScript and TypeScript.
+- Understood how TypeScript works internally.
+- Learned about type safety and its importance.
+- Installed TypeScript compiler.
+- Learned two ways to execute TypeScript code:
+  1. Compile TypeScript to JavaScript and run it.
+  2. Execute TypeScript directly using ts-node.
