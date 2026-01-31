@@ -1,6 +1,6 @@
 Day 1 – TypeScript for Playwright
 
-Date: ___________
+Date: 31/1/2026
 
 Topics Covered:
 
