@@ -1,0 +1,132 @@
+TOPIC: COMMENTS AND VARIABLES IN TYPESCRIPT
+
+COMMENTS IN TYPESCRIPT
+
+Comments are used to explain the code. They are ignored by the TypeScript compiler.
+
+Types of Comments:
+
+Single-line Comment
+// This is a single-line comment
+
+Multi-line Comment
+/*
+This is a multi-line comment
+Used for more than one line
+*/
+
+VARIABLE IN TYPESCRIPT
+
+A variable is used to store data values so that the data can be reused and modified in a program.
+
+Example:
+let age = 21;
+
+KEYWORD IN TYPESCRIPT
+
+A keyword is a reserved word in TypeScript that has a predefined meaning and cannot be used as a variable name.
+
+Examples of keywords:
+var, let, const, if, else, function, return
+
+SYNTAX OF VARIABLE DECLARATION IN TYPESCRIPT
+
+var variableName = value;
+let variableName = value;
+const variableName = value;
+
+VARIABLE KEYWORDS IN TYPESCRIPT
+
+TypeScript provides three keywords to declare variables:
+
+var
+
+let
+
+const
+
+SCOPE IN TYPESCRIPT
+
+Scope defines where a variable can be accessed.
+
+There are two types of scope in TypeScript:
+
+Function Scope
+Variables declared using var have function scope.
+They can be accessed anywhere inside the function.
+
+Example:
+function demo() {
+var x = 10;
+}
+
+Block Scope
+Variables declared using let and const have block scope.
+They can be accessed only inside the block.
+
+Example:
+if (true) {
+let y = 20;
+const z = 30;
+}
+
+DECLARATION AND VALUE ASSIGNMENT
+
+var can be declared without initialization.
+let can be declared without initialization.
+const must be initialized at the time of declaration.
+
+Example:
+var a;
+let b;
+const c = 10;
+
+RE-DECLARATION
+
+var allows re-declaration of the same variable.
+let does not allow re-declaration.
+const does not allow re-declaration.
+
+Example:
+var x = 10;
+var x = 20;
+
+let y = 10;
+let y = 20; (Error)
+
+const z = 30;
+const z = 40; (Error)
+
+RE-INITIALIZATION / RE-ASSIGNMENT
+
+var allows re-assignment.
+let allows re-assignment.
+const does not allow re-assignment because it is constant.
+
+Example:
+var a = 1;
+a = 2;
+
+let b = 3;
+b = 4;
+
+const c = 5;
+c = 6; (Error)
+
+HOISTING
+
+Hoisting means variables are moved to the top of their scope before execution.
+
+var is hoisted and initialized with undefined.
+let and const are hoisted but not initialized and give an error if accessed before declaration.
+
+Example:
+
+console.log(x);
+var x = 10;
+
+console.log(y);
+let y = 20; (Error)
+
+console.log(z);
+const z = 30; (Error)
