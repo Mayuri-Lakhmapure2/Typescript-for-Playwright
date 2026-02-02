@@ -1,0 +1,99 @@
+DAY 3 – TYPESCRIPT FOR PLAYWRIGHT & CYPRESS
+
+DIFFERENCE BETWEEN JAVASCRIPT AND TYPESCRIPT
+
+JavaScript is a dynamically typed programming language.
+In JavaScript, variable types are checked at runtime.
+
+TypeScript is a statically typed programming language.
+In TypeScript, variable types are checked at compile time.
+
+TYPE SAFETY
+
+Type safety ensures that variables are used according to their defined data types.
+It helps to catch errors at compile time and improves code reliability and maintainability.
+
+DATA TYPES IN TYPESCRIPT
+
+A data type defines the type of value a variable can store.
+
+TYPE ANNOTATIONS AND TYPE INFERENCE
+
+Type Annotation:
+Explicitly specifying the data type of a variable.
+
+Example:
+let age: number = 25;
+
+Type Inference:
+TypeScript automatically determines the data type based on the assigned value.
+
+Example:
+let name = "Mayuri";
+
+TYPES OF DATA TYPES IN TYPESCRIPT
+
+Data types in TypeScript are classified into two types:
+
+Primitive Data Types
+
+Non-Primitive Data Types
+
+PRIMITIVE DATA TYPES
+
+number
+Used to represent numeric values.
+
+Example:
+let score: number = 90;
+
+string
+Used to represent text values.
+
+Example:
+let username: string = "Admin";
+
+boolean
+Used to represent true or false values.
+
+Example:
+let isActive: boolean = true;
+
+null
+Represents an intentional absence of value.
+
+Example:
+let result: null = null;
+
+undefined
+Represents a variable that has been declared but not assigned a value.
+
+Example:
+let data: undefined;
+
+any
+Allows a variable to store any type of value.
+It disables type checking and should be avoided when possible.
+
+Example:
+let value: any = 10;
+
+union type
+Allows a variable to store more than one data type.
+
+Example:
+let id: number | string;
+id = 101;
+id = "EMP101";
+
+void
+Used for functions that do not return any value.
+
+Example:
+function logMessage(): void {
+console.log("Hello TypeScript");
+}
+
+NON-PRIMITIVE DATA TYPES
+
+Non-primitive data types are used to store complex values such as objects, arrays, and functions.
