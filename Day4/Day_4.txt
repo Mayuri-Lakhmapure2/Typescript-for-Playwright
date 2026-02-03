@@ -1,0 +1,149 @@
+DAY 4 – TYPESCRIPT FOR PLAYWRIGHT & CYPRESS
+
+--------------------------------------------------
+
+TOPIC: OPERATORS IN TYPESCRIPT
+
+--------------------------------------------------
+
+1. USING MULTIPLE OPERATORS IN A SINGLE LINE
+
+TypeScript allows the use of multiple operators in a single line to perform calculations and conditions.
+
+Example:
+let result = (a + b) * c;
+
+--------------------------------------------------
+
+2. ARITHMETIC OPERATORS
+
+Arithmetic operators are used to perform mathematical calculations.
+
+Operators:
++  Addition
+-  Subtraction
+*  Multiplication
+/  Division
+%  Modulus
+
+Example:
+let sum = 10 + 5;
+
+--------------------------------------------------
+
+3. ASSIGNMENT OPERATORS
+
+Assignment operators are used to assign values to variables.
+
+Operators:
+=   Assign
++=  Add and assign
+-=  Subtract and assign
+*=  Multiply and assign
+/=  Divide and assign
+
+Example:
+let x = 10;
+x += 5;
+
+--------------------------------------------------
+
+4. RELATIONAL OPERATORS
+
+Relational operators are used to compare two values.
+
+Operators:
+>   Greater than
+<   Less than
+>=  Greater than or equal to
+<=  Less than or equal to
+==  Equal to
+!=  Not equal to
+
+Example:
+let isGreater = 10 > 5;
+
+--------------------------------------------------
+
+5. DIFFERENCE BETWEEN == AND ===
+
+==  Compares only values
+=== Compares both value and data type
+
+Example:
+10 == "10"   // true
+10 === "10"  // false
+
+--------------------------------------------------
+
+6. LOGICAL OPERATORS
+
+Logical operators are used to combine multiple conditions.
+
+Operators:
+&&  AND
+||  OR
+!   NOT
+
+Example:
+let result = (age > 18 && isActive == true);
+
+--------------------------------------------------
+
+7. COMBINATION OF LOGICAL AND RELATIONAL OPERATORS
+
+Logical operators are often used with relational operators to form complex conditions.
+
+Example:
+let eligible = (marks >= 60 && age >= 18);
+
+--------------------------------------------------
+
+8. INCREMENT AND DECREMENT OPERATORS
+
+Increment and decrement operators are used to increase or decrease a value by 1.
+
+Pre-Increment:
+++x  (increments first, then uses the value)
+
+Post-Increment:
+x++  (uses the value first, then increments)
+
+Pre-Decrement:
+--x
+
+Post-Decrement:
+x--
+
+--------------------------------------------------
+
+9. TERNARY OPERATOR
+
+The ternary operator is a short form of if-else condition.
+
+Syntax:
+condition ? expression1 : expression2;
+
+Example:
+let result = (age >= 18) ? "Eligible" : "Not Eligible";
+
+--------------------------------------------------
+
+10. CONDITIONAL OPERATORS
+
+Conditional operators are used to make decisions based on conditions.
+
+Example:
+if (score >= 50) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
+
+--------------------------------------------------
+
+CONCLUSION
+
+Operators play an important role in writing conditions, validations, and logic in automation testing using Playwright and Cypress.
+
+--------------------------------------------------
