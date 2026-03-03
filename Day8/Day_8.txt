@@ -1,0 +1,67 @@
+Day 9 – TypeScript for Playwright & Cypress
+Topic 1: Callback Function
+
+Definition:
+A callback function is a function that is passed as an argument to another function and executed later.
+
+Understanding:
+Callback functions are widely used in Playwright and Cypress because automation frameworks handle many asynchronous operations such as API calls, waits, assertions, and event handling.
+
+Why It Is Important:
+
+Helps manage asynchronous execution
+
+Improves code reusability
+
+Makes automation scripts cleaner
+
+Common in handling test steps and responses
+
+Topic 2: Function Overloading
+
+Definition:
+Function Overloading allows multiple function signatures with the same function name but different parameters (type or count). TypeScript determines which version to execute based on the arguments passed.
+
+Why It Is Important:
+
+Provides flexibility
+
+Improves type safety
+
+Reduces code duplication
+
+Makes utility functions more powerful in automation frameworks
+
+Types of Function Overloading Learned
+
+Different Parameter Types (Data Types)
+A function can accept different input types such as string or number.
+
+Concept:
+If input is string → perform string operation
+If input is number → perform number operation
+
+Different Number of Parameters
+A function can accept a different number of arguments.
+
+Concept:
+If 2 parameters are passed → perform operation on 2 values
+If 3 parameters are passed → perform operation on 3 values
+
+Different Return Types
+The return type changes depending on the input parameter type.
+
+Concept:
+If input is string → return string
+If input is number → return number
+
+Different Parameter Data Types but Same Return Type
+The function accepts different input types but returns the same type.
+
+Concept:
+Input can be string or number
+Return type remains the same (e.g., string)
+
+Learning Insight
+
+Understanding callback functions and function overloading improves readability, flexibility, and maintainability of automation scripts. Strong TypeScript knowledge helps build structured and scalable automation frameworks using Playwright and Cypress.

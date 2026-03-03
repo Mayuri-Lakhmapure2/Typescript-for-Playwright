@@ -1,0 +1,120 @@
+Day 9 – Arrays and Tuples in TypeScript
+
+Topic: TypeScript for Playwright & Cypress
+
+Today I learned about Arrays and Tuples in TypeScript. These concepts are important for managing structured data such as test data, API responses, and configuration details in automation frameworks like Playwright and Cypress.
+
+Arrays in TypeScript
+
+Definition:
+An array is a collection of elements of the same data type stored in a single variable.
+
+Array Declaration Methods:
+
+Literal Syntax
+Example Concept:
+number[]
+string[]
+
+Generic Syntax
+Example Concept:
+Array<number>
+Array<string>
+
+Why Arrays Are Important in Automation:
+
+Store multiple test data values
+
+Store API response data
+
+Handle lists of elements
+
+Manage multiple test cases
+
+Iterating Over an Array
+
+Traditional For Loop
+
+Uses index number
+
+Gives full control over iteration
+
+for...in Loop
+
+Iterates over indexes (keys)
+
+for...of Loop
+
+Iterates over actual element values
+
+Difference Between for...in and for...of:
+
+for...in → returns index
+
+for...of → returns value
+
+Passing Array to a Function
+
+A function can accept an array as a parameter and perform operations on it.
+
+Concept:
+Function receives an array → processes it → returns result
+
+Function That Takes an Array and Returns an Array
+
+A function can take an array, modify its elements, and return a new array.
+
+This is useful in automation when:
+
+Filtering test data
+
+Modifying API response data
+
+Creating transformed result sets
+
+Tuples in TypeScript
+
+Definition:
+A tuple is a fixed-length array where each element has a predefined data type and fixed position.
+
+Tuple Examples:
+
+Tuple with Two Values
+[string, number]
+
+Tuple with Multiple Values
+[string, number, boolean]
+
+Why Tuples Are Important:
+
+Used when structure is fixed
+
+Useful for pairing related values
+
+Helpful for API responses with known format
+
+Iterating Over a Tuple
+
+Tuples can be iterated using:
+
+Traditional for loop
+
+for...in loop
+
+for...of loop
+
+Array of Tuples
+
+An array can contain multiple tuples.
+
+Example Concept:
+List of users with fixed structure like:
+[name, age]
+
+Useful in automation for:
+
+Test user datasets
+
+Structured configuration values
+
+Multiple related data records
