@@ -1,0 +1,127 @@
+Day 10 – Array Methods in TypeScript
+
+Topic: TypeScript for Playwright & Cypress
+
+Today I learned about important Array Methods in TypeScript. These methods help in modifying, accessing, and managing array data efficiently, which is very useful while handling test data and API responses in Playwright and Cypress.
+
+push()
+
+Definition:
+The push() method adds one or more elements to the end of an array.
+
+Key Point:
+
+Modifies the original array
+
+Returns the new length of the array
+
+Use Case in Automation:
+Adding new test data or dynamic values to an existing list.
+
+pop()
+
+Definition:
+The pop() method removes the last element from an array.
+
+Key Point:
+
+Modifies the original array
+
+Returns the removed element
+
+Use Case in Automation:
+Removing the last test entry or cleaning up data.
+
+shift()
+
+Definition:
+The shift() method removes the first element from an array.
+
+Key Point:
+
+Modifies the original array
+
+Returns the removed element
+
+Use Case in Automation:
+Removing the first element from a queue-like data structure.
+
+unshift()
+
+Definition:
+The unshift() method adds one or more elements at the beginning of an array.
+
+Key Point:
+
+Modifies the original array
+
+Returns the new length of the array
+
+Use Case in Automation:
+Adding high-priority test data at the beginning.
+
+slice()
+
+Definition:
+The slice() method returns a shallow copy of a portion of an array.
+
+Key Point:
+
+Does NOT modify the original array
+
+Returns a new array
+
+Use Case in Automation:
+Extracting specific test data without changing the original dataset.
+
+splice()
+
+Definition:
+The splice() method adds, removes, or replaces elements in an array.
+
+Key Point:
+
+Modifies the original array
+
+Can remove and insert elements at specific positions
+
+Use Case in Automation:
+Updating test data dynamically.
+
+indexOf()
+
+Definition:
+The indexOf() method returns the first index of a specified element.
+
+Key Point:
+
+Returns -1 if element is not found
+
+Use Case in Automation:
+Checking position of specific test data.
+
+includes()
+
+Definition:
+The includes() method checks whether an array contains a specified element.
+
+Key Point:
+
+Returns true or false
+
+Use Case in Automation:
+Validating if expected data exists in API response.
+
+toString()
+
+Definition:
+The toString() method converts an array into a comma-separated string.
+
+Key Point:
+
+Does NOT modify the original array
+
+Returns a string
+
+Use Case in Automation:
+Logging array data or converting data for validation.
